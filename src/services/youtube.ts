@@ -6,7 +6,7 @@ const youtube = (inputURL: string): string => {
         return inputURL
     }
 
-    return `https://www.youtube${(matches[2] || '')}.com/embed/${matches[4]}?autoplay=1`
+    return `https://www.youtube${(matches[2] || '')}.com/embed/${matches[4]}`
 }
 
 export default youtube;

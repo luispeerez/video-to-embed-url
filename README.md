@@ -1,3 +1,17 @@
+## Video to embed URL
+Simple application to convert videos urls from Youtube, Vimeo and Facebook to their embed versions
+
+e.g From a youtube url video
+```
+https://www.youtube.com/watch?v=zCLOJ9j1k2Y
+```
+
+to the embed url version:
+
+```
+https://www.youtube.com/embed/zCLOJ9j1k2Y
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
