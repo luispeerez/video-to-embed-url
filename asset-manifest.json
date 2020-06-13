@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/video-to-embed-url/static/css/main.5f361e03.chunk.css",
+    "main.js": "/video-to-embed-url/static/js/main.ef8a0278.chunk.js",
+    "main.js.map": "/video-to-embed-url/static/js/main.ef8a0278.chunk.js.map",
+    "runtime-main.js": "/video-to-embed-url/static/js/runtime-main.28f46bb9.js",
+    "runtime-main.js.map": "/video-to-embed-url/static/js/runtime-main.28f46bb9.js.map",
+    "static/js/2.dde88ad5.chunk.js": "/video-to-embed-url/static/js/2.dde88ad5.chunk.js",
+    "static/js/2.dde88ad5.chunk.js.map": "/video-to-embed-url/static/js/2.dde88ad5.chunk.js.map",
+    "index.html": "/video-to-embed-url/index.html",
+    "precache-manifest.0efc5583cae681545d8da3b2fd3b07d0.js": "/video-to-embed-url/precache-manifest.0efc5583cae681545d8da3b2fd3b07d0.js",
+    "service-worker.js": "/video-to-embed-url/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/video-to-embed-url/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.dde88ad5.chunk.js.LICENSE.txt": "/video-to-embed-url/static/js/2.dde88ad5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28f46bb9.js",
+    "static/js/2.dde88ad5.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.ef8a0278.chunk.js"
+  ]
+}
