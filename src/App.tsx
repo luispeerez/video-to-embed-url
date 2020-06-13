@@ -21,7 +21,7 @@ function App() {
       <header className="App-header">
         <h1>Video url to embed url</h1>
         <p>Youtube, Facebook, Vimeo</p>
-
+        
         <form action="#">
           <input type="text" onChange={handleOnChangeUrl} value={url} />
           <button onClick={handleConvert}>Get embed url</button>
@@ -32,6 +32,14 @@ function App() {
             </div>
           }
         </form>
+
+
+        <p className="github-buttons">
+          <a className="github-button" href="https://github.com/luispeerez/video-to-embed-url" data-size="large" data-show-count="true" aria-label="Star luispeerez/video-to-embed-url on GitHub">Star</a>
+          <a className="github-button" href="https://github.com/luispeerez/video-to-embed-url/subscription" data-size="large" data-show-count="true" aria-label="Watch luispeerez/video-to-embed-url on GitHub">Watch</a>
+          <a className="github-button" href="https://github.com/luispeerez/video-to-embed-url/issues" data-size="large" data-show-count="true" aria-label="Issue luispeerez/video-to-embed-url on GitHub">Issue</a>
+        </p>
+
       </header>
     </div>
   );
