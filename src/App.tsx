@@ -1,6 +1,5 @@
-import React,{useCallback, useState, useEffect, ChangeEvent} from 'react';
+import React,{useCallback, useState, ChangeEvent} from 'react';
 import youtubeTransform from './services/youtube'
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -22,16 +21,14 @@ function App() {
         <h1>Video url to embed url</h1>
         <p>Youtube, Facebook, Vimeo</p>
         
-        <form action="#">
-          <input type="text" onChange={handleOnChangeUrl} value={url} />
-          <button onClick={handleConvert}>Get embed url</button>
-          {embedUrl &&
-            <div>
-              <h2>Your embed url:</h2>
-              <p>{embedUrl}</p>
-            </div>
-          }
-        </form>
+        <p><input type="text" className="url-input" placeholder="Enter your video url here." onChange={handleOnChangeUrl} value={url} /></p>
+        <p><button className="submit-btn" onClick={handleConvert}>Get embed url</button></p>
+        {embedUrl &&
+          <div>
+            <h2>Your embed url:</h2>
+            <p>{embedUrl}</p>
+          </div>
+        }
 
 
         <p className="github-buttons">
